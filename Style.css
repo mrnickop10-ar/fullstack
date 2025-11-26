@@ -1,0 +1,171 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    background: #00aeff;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #a6251c;
+    color: #050202;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* Navigation */
+nav {
+    background: #e0e0e0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #1481d4;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #3b869c;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+/* About Section */
+#about {
+    background: #028ebc;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+#about h2 {
+    margin-bottom: 15px;
+    color: #0e19ea;
+}
+
+#about p {
+    font-size: 1.1rem;
+}
+
+/* Projects Section */
+#projects {
+    background: #028ebc;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+#projects h2 {
+    margin-bottom: 20px;
+}
+
+.project-box {
+    background: #2610d3;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 4px solid #00c3ff;
+}
+
+.project-box h3 {
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+#skills {
+    background: #f4ffed;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill {
+    background: #5eff00;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #268163;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    background: #028ebc;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #1ec5c0;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 12px;
+    background: #9df31b;
+    color: #07b4f8c2;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #48d1ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: white;
+    margin-top: 40px;
+}
